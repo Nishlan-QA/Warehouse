@@ -1,0 +1,154 @@
+---
+title: Warehouse Management
+description: Scope Document 
+---
+
+### 🧭 1. Project Overview
+The Warehouse Management Booking System is a centralized digital platform designed to facilitate efficient booking, management, and usage of warehouse spaces. The system connects Owners (who list and manage warehouses), Users (who book warehouse spaces), and Admins (who oversee platform operations). The platform aims to eliminate manual processes, improve transparency, and offer a streamlined booking experience for all stakeholders.
+
+### 👥 2. Roles & Responsibilities
+
+#### 🔐 Admin
+**The Admin is the backbone of the system, responsible for overseeing the entire platform’s functionality, user activities, and ensuring policy enforcement. The Admin acts as a superuser with the highest level of control and visibility across the system.**
+
+**🔐 1. User Management**
+- Manage all users within the platform — both Warehouse Owners and End Users.
+- Review and approve new registrations (especially Owners)
+- Activate, deactivate, or suspend user accounts
+- Edit user information if required (with permission)
+- Handle user complaints, disputes, or misuse reports
+- Monitor user behavior for suspicious activity
+
+**📦 2. Warehouse Listing Moderation**
+- Approve or reject new warehouse listings based on compliance with guidelines
+- Review changes to existing listings
+- Remove or flag listings that violate policies
+- Ensure listings are accurate, professional, and meet platform standards
+
+**📅 3. Booking Oversight**
+- Monitor all bookings across the system (active, completed, canceled)
+- Investigate disputes or fraudulent bookings
+- Intervene in escalations between owners and users
+- Refund or reschedule bookings in case of exceptional circumstances
+
+**📊 4. Reporting & Analytics**
+- View dashboard metrics (number of bookings, revenue, popular warehouses)
+- Generate monthly or weekly reports
+
+**🛎️ 5. Support & Communication**
+- Respond to support tickets from users and owners
+- Send announcements or system alerts
+- Broadcast platform updates, maintenance windows, or new features
+- Handle feedback loops to improve the platform
+
+#### 🏢 Owner
+**Warehouse Owners are core stakeholders in the platform. They can register, list, and manage warehouse spaces, along with handling bookings and logistics. The system empowers them with the following capabilities:**
+
+**📝 1. Register and Manage Profile**
+- Sign up through a dedicated registration process.
+- Maintain and update profile details including business information, contact details, and verification documents.
+
+**💰 2. Add and Manage Warehouse Listings**
+- Create multiple warehouse listings with detailed descriptions.
+- Include images, location (Google Maps integration), storage capacity, pricing, and amenities.
+- Update or remove listings as needed.
+
+**📩 3. Set Pricing, Availability, and Policies**
+- Define pricing per day/week/month for each warehouse.
+- Manage availability using a calendar-based interface.
+- Configure custom booking policies like cancellation terms, minimum duration, etc.
+
+**💬 4. View and Respond to Booking Requests**
+- Receive booking requests and accept/reject based on availability or conditions.
+- View booking history and upcoming reservations in a dashboard.
+
+**💬 5. Communicate with Users and Admins**
+- Communicate directly with Users for coordination and updates.
+- Contact Admins for listing approval status and platform-related issues.
+
+#### 📦 User
+**Users are the customers of the platform who search for, book, and utilize warehouse spaces. Below are their key features and actions:**
+
+**📝 1. Register & Manage Profile**
+- Sign up securely using email/password or social login.
+- Manage and update personal information and preferences.
+- Access and edit profile settings anytime.
+
+**🔍 2. Search & Filter Available Warehouse Spaces**
+- Browse available warehouses using location, size, price, and availability filters.
+- View detailed listings with photos, amenities, and policies.
+- Use an interactive map (Google Maps) for precise search.
+
+**🛒 3. Submit Booking Requests**
+- Select warehouse, duration, and proceed with booking.
+- View pricing breakdown and policies before confirming.
+- Make payment through integrated gateways (Razorpay, Stripe, etc.).
+
+**📄 4. View Booking History & Status**
+- Track current, upcoming, and past bookings.
+- Check live booking status – confirmed, pending, or cancelled.
+- Download invoices and receipts.
+
+**⭐ 5. Leave Reviews & Ratings**
+- Rate warehouse experience after booking.
+- Submit feedback to help other users.
+- View average ratings and testimonials.
+
+### 📘 3. User Stories
+
+#### ✅ Admin
+- Log in securely to manage the platform.
+- Verify and approve warehouse listings.
+- View all booking activity and generate reports.
+- Suspend or delete accounts if needed.
+- Receive alerts for suspicious activity or failed bookings.
+
+#### 🏠 Owner
+- Register and verify account.
+- List warehouse spaces with pricing, photos, and availability.
+- Manage booking requests.
+- Communicate with Users regarding logistics.
+- Track income and bookings.
+
+#### 🙋 User
+- Search for warehouses by location and size.
+- View listings with photos and prices.
+- Book space and receive confirmation.
+- View booking history and reservations.
+- Leave feedback and ratings.
+
+### 📋 4. Tasks & Deliverables
+
+#### 🔧 4.1 System Architecture & Design
+- Define system requirements
+- Design user flows and wireframes
+- Develop database schema
+
+#### 🛠 4.2 Development Modules
+- Authentication & Authorization (role-based login)
+- Admin Dashboard (user management, reports, approvals)
+- Owner Panel (listing management, bookings)
+- User Interface (search, filter, booking flow)
+- Booking System (calendar, payments)
+- Notification System (email/SMS)
+
+#### 🧪 4.3 Testing
+- Unit and integration testing
+- Functional and UI testing
+- Booking flow testing with edge cases
+- UAT with live scenarios
+
+#### 🚀 4.4 Deployment
+- Cloud server setup and deployment
+- Database backup and recovery system
+- Monitoring tools integration
+
+#### 🛎 4.5 Support & Maintenance
+- Regular updates and patches
+- Bug tracking and resolution
+- Feature enhancement roadmap
+
+### ✅ 5. Conclusion
+This Warehouse Management Booking System creates a seamless experience for users, owners, and administrators. It provides powerful tools to manage listings, optimize space usage, and streamline booking processes. Future plans include third-party logistics integration, mobile app development, and AI-powered recommendations.
+
+
